@@ -52,6 +52,7 @@ This is a classic example in deep learning, this is a net that recognize digits:
 </a>
  
 ## XOR
+
 This is a classic exercise, is a simple net that can predict the XOR gate:
 
 [Show me the code](https://soyoscarrh.github.io/LearningNeuralNetworks/Basics_with_Pytorch/XOR/My_Neural_Network_XOR.html)
