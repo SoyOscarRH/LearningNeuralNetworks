@@ -6,9 +6,9 @@ Here is a showcase of all most important projects, click the images to show the 
 ## Surnames origins
 A RRN using PyTorch (+ a DIY LSTM module) that can predict the origin of a surname:
 
-[Show me the code](Basics_with_Pytorch/XOR/RRN%20Nombres%20LSTM%20DIY.html)
+[Show me the code](Basics_with_Pytorch/Surname/RRN%20Nombres%20LSTM%20DIY.html)
 
-<a href="Basics_with_Pytorch/XOR/RRN%20Nombres%20LSTM%20DIY.html">
+<a href="Basics_with_Pytorch/Surname/RRN%20Nombres%20LSTM%20DIY.html">
   <img src="Graphics/Surname2.png" width="40%">
   <img src="Graphics/Surname1.png" width="50%">
 </a>
@@ -47,7 +47,7 @@ This is a classic example in deep learning, this is a net that recognize digits:
   <img src="Graphics/Digit2.png" width="50%">
   <img src="Graphics/Digit3.png" width="50%">
 </a>
-
+ 
 ## XOR
 This is a classic exercise, is a simple net that can predict the XOR gate:
 
