@@ -51,7 +51,8 @@ This is a classic example in deep learning, this is a net that recognize digits:
   <img src="Graphics/Digit3.png" width="50%">
 </a>
  
-## XOR
+
+## XOR network
 
 This is a classic exercise, is a simple net that can predict the XOR gate:
 
