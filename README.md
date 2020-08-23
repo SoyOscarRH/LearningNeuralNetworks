@@ -10,8 +10,8 @@ A RRN using PyTorch (+ a DIY LSTM module) that can predict the origin of a surna
 
 [Show me the code](https://soyoscarrh.github.io/LearningNeuralNetworks/Basics_with_Pytorch/Surname/RRN%20Nombres%20LSTM%20DIY.html)
 
-<a href="https://soyoscarrh.github.io/LearningNeuralNetworks/Basics_with_Pytorch/Surname/RRN%20Nombres%20LSTM%20DIY.html">
-  <img src="Graphics/Surname2.png" width="40%">
+<a href="https://soyoscarrh.github.io/LearningNeuralNetworks/Basics_with_Pytorch/Surname/RRN-Surnames-LSTM-DIY.html">
+  <img src="Graphics/Surname2.png" width="30%">
   <img src="Graphics/Surname1.png" width="50%">
 </a>
 
