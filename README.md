@@ -8,7 +8,7 @@ Here is a showcase of all most important projects, click the images to show the 
 
 A RRN using PyTorch (+ a DIY LSTM module) that can predict the origin of a surname:
 
-[Show me the code](https://soyoscarrh.github.io/LearningNeuralNetworks/Basics_with_Pytorch/Surname/RRN%20Nombres%20LSTM%20DIY.html)
+[Show me the code](https://soyoscarrh.github.io/LearningNeuralNetworks/Basics_with_Pytorch/Surname/RRN-Surnames-LSTM-DIY.html)
 
 <a href="https://soyoscarrh.github.io/LearningNeuralNetworks/Basics_with_Pytorch/Surname/RRN-Surnames-LSTM-DIY.html">
   <img src="Graphics/Surname2.png" width="30%">
