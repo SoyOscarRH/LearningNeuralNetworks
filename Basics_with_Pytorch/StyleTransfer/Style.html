@@ -13018,52 +13018,7 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #3E424D; }
-.ansi-black-bg { background-color: #3E424D; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #E75C58; }
-.ansi-red-bg { background-color: #E75C58; }
-.ansi-red-intense-fg { color: #B22B31; }
-.ansi-red-intense-bg { background-color: #B22B31; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #DDB62B; }
-.ansi-yellow-bg { background-color: #DDB62B; }
-.ansi-yellow-intense-fg { color: #B27D12; }
-.ansi-yellow-intense-bg { background-color: #B27D12; }
-.ansi-blue-fg { color: #208FFB; }
-.ansi-blue-bg { background-color: #208FFB; }
-.ansi-blue-intense-fg { color: #0065CA; }
-.ansi-blue-intense-bg { background-color: #0065CA; }
-.ansi-magenta-fg { color: #D160C4; }
-.ansi-magenta-bg { background-color: #D160C4; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #60C6C8; }
-.ansi-cyan-bg { background-color: #60C6C8; }
-.ansi-cyan-intense-fg { color: #258F8F; }
-.ansi-cyan-intense-bg { background-color: #258F8F; }
-.ansi-white-fg { color: #C5C1B4; }
-.ansi-white-bg { background-color: #C5C1B4; }
-.ansi-white-intense-fg { color: #A1A6B2; }
-.ansi-white-intense-bg { background-color: #A1A6B2; }
-
-.ansi-bold { font-weight: bold; }
-
-    </style>
-<style type="text/css">
-    @font-face {
- font-family: "Fira Code";
- font-weight: normal;
- font-style: normal;
- src: local('"Fira Code"'), url('fonts/firacode.otf') format('opentype');
-}
-div#notebook {
+    div#notebook {
  font-family: sans-serif;
  font-size: 13pt;
  line-height: 170%;
@@ -13859,7 +13814,7 @@ div.notification_widget {
 }
 #kernel_logo_widget,
 #kernel_logo_widget .current_kernel_logo {
- display: block;
+ display: none;
 }
 div#ipython_notebook {
  display: none;
@@ -14661,7 +14616,7 @@ div.cell.selected.jupyter-soft-selected .input {
 }
 div.prompt,
 .prompt {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 9pt !important;
  font-weight: normal;
  color: #93a1a1;
@@ -14749,7 +14704,7 @@ div.output_wrapper {
 }
 div.output_subarea.output_text.output_stream.output_stdout,
 div.output_subarea.output_text {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 8.5pt !important;
  line-height: 150% !important;
  background-color: #eee8d5;
@@ -14759,7 +14714,7 @@ div.output_subarea.output_text {
  margin-left: 11.5px;
 }
 div.output_area pre {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 8.5pt !important;
  line-height: 151% !important;
  color: #586e75;
@@ -14770,7 +14725,7 @@ div.output_area {
  display: -webkit-box;
 }
 div.output_html {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 8.5pt;
  color: #353535;
  background-color: #eee8d5;
@@ -14795,7 +14750,7 @@ div.btn.btn-default.output_collapsed:hover {
  border-color: #ded2ae;
 }
 div.prompt.output_prompt {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-weight: bold !important;
  background-color: #eee8d5;
  color: transparent;
@@ -14808,7 +14763,7 @@ div.prompt.output_prompt {
  border-right: 2px solid transparent;
 }
 div.out_prompt_overlay.prompt {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-weight: bold !important;
  background-color: #eee8d5;
  border-bottom-left-radius: 2px;
@@ -14925,7 +14880,7 @@ div.cell.text_cell .prompt {
  width: 11.5ex !important;
 }
 div.cell.text_cell.rendered .prompt {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
  color: #93a1a1 !important;
@@ -14937,7 +14892,7 @@ div.cell.text_cell.rendered .prompt {
  border-left: 4px solid #fdf6e3;
 }
 div.cell.text_cell.unrendered .prompt {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
  color: #93a1a1 !important;
@@ -14964,7 +14919,7 @@ div.text_cell.rendered.selected .prompt {
  border-right: 2px solid rgba(181,137,0,.4);
 }
 div.rendered_html code {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt;
  padding-top: 3px;
  padding-left: 2px;
@@ -14980,7 +14935,7 @@ samp {
 }
 .well code,
 code {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt !important;
  line-height: 170% !important;
  color: #586e75;
@@ -15020,7 +14975,7 @@ div.rendered_html {
  margin-bottom: .5em;
 }
 div.rendered_html pre {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt !important;
  line-height: 170% !important;
  color: #586e75 !important;
@@ -15036,7 +14991,7 @@ div.rendered_html pre {
 }
 div.text_cell_render pre,
 div.text_cell_render code {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt !important;
  line-height: 170% !important;
  color: #586e75;
@@ -15479,13 +15434,13 @@ span.bg-danger.text-danger {
  box-shadow: inset 0 1px 1px rgba(0,0,0,0.025);
 }
 .kse-input-group-pretty > kbd {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  color: #586e75;
  font-weight: normal;
  background: transparent;
 }
 .kse-input-group-pretty > kbd {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  color: #586e75;
  font-weight: normal;
  background: transparent;
@@ -15615,7 +15570,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
  font-size: 11pt !important;
 }
 input.raw_input {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt !important;
  color: #586e75;
  background-color: #efefef;
@@ -15851,7 +15806,7 @@ div#short-key-bindings-intro.well,
  background: #eee8d5;
 }
 .terminal-app .terminal {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  color: #586e75;
@@ -15967,7 +15922,7 @@ div#pager .ui-resizable-handle {
 }
 div.CodeMirror,
 div.CodeMirror pre {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  color: #586e75;
@@ -16029,7 +15984,7 @@ div.js-error {
  color: #dc322f;
 }
 .ipython_tooltip {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  border: 2px solid #e2d8b8;
@@ -16043,7 +15998,7 @@ div.js-error {
  z-index: 1000;
 }
 .ipython_tooltip .tooltiptext pre {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  background: #eee8d5;
@@ -16065,7 +16020,7 @@ div.tooltiptext.bigtooltip {
  max-width: 800px;
 }
 .cm-s-ipython.CodeMirror {
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt;
  background: #fdf6e3;
  color: #586e75;
@@ -16290,7 +16245,7 @@ body :focus .MathJax {
  margin: 0px;
  margin-left: 2px;
  overflow: auto;
- font-family: "Fira Code", monospace, monospace;
+ font-family: monospace, monospace;
  font-size: 11pt;
  color: #586e75;
  width: auto;
@@ -16298,20 +16253,8 @@ body :focus .MathJax {
 div#maintoolbar {
  display: none !important;
 }
-span.save_widget span.filename {
- margin-left: 8px;
- height: initial;
- font-size: 100%;
- color: #93a1a1;
- background-color: #fdf6e3;
-}
-span.save_widget span.filename:hover {
- color: #de6d25;
- background-color: #fdf6e3;
-}
-#menubar {
- padding-top: 4px;
- background-color: #eee8d5;
+#header-container {
+ display: none !important;
 }
 
 <script>
@@ -16390,14 +16333,45 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Style-Transfer">Style Transfer<a class="anchor-link" href="#Style-Transfer">&#182;</a></h1>
+<h1 id="Style-Transfer">Style Transfer<a class="anchor-link" href="#Style-Transfer">&#182;</a></h1><p>The idea for this notebook is to show how we can use a trained CNN to separate the content of an image from the style and therefore create a style transfer system, that can take 1 image and apply the style of another one.</p>
+<p><img src="./Style1.png" width="20%"></p>
+<p><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf">https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf</a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf">https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf</a></p>
+<h2 id="How-we-are-going-to-do-it?">How we are going to do it?<a class="anchor-link" href="#How-we-are-going-to-do-it?">&#182;</a></h2><p>Well, the idea here is that we can use a trained CNN as a feature extractor (VGG19) and use different layers of the net as the representation of an image and their content.</p>
+<table>
+   <tr>
+      <td>
+         <img src="./Style2.png" width="100%">
+      </td>
+      <td>
+         <img src="./Style3.png" width="100%">            
+      </td>
+   <tr>
+</table>
+<br />
+<br />
+
+Now we could take some target image (either the original image, random noise or a blank canvas) and try to minimize 2 loss functions, one related to content (we will want to make the content representation of the original and target image as similar as possible) and analogously minimize the loss of the gram matrices that represent the style of the images.
+
+
+ <table>
+   <tr>
+      <td>
+         <img src="./Style4.png" width="100%">
+      </td>
+      <td>
+         <img src="./Style5.png" width="100%">            
+      </td>
+   <tr>
+</table><p><br />
+<br /></p>
+<p>Finally, something interesting to note is that we are going to minimize a weighted sum of the losses, so we can tweak the weights to signal that we are more interested in presenting the content of on transferring as much style as possible.</p>
 
 </div>
 </div>
@@ -16410,15 +16384,15 @@ div#notebook {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import resources</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 
-<span class="kn">from</span> <span class="nn">PIL</span> <span class="k">import</span> <span class="n">Image</span>
-<span class="kn">from</span> <span class="nn">io</span> <span class="k">import</span> <span class="n">BytesIO</span>
+<span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">io</span> <span class="kn">import</span> <span class="n">BytesIO</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">import</span> <span class="nn">torch.optim</span> <span class="k">as</span> <span class="nn">optim</span>
 <span class="kn">import</span> <span class="nn">requests</span>
-<span class="kn">from</span> <span class="nn">torchvision</span> <span class="k">import</span> <span class="n">transforms</span><span class="p">,</span> <span class="n">models</span>
+<span class="kn">from</span> <span class="nn">torchvision</span> <span class="kn">import</span> <span class="n">transforms</span><span class="p">,</span> <span class="n">models</span>
 </pre></div>
 
     </div>
@@ -20139,7 +20113,7 @@ GMaUMQfLMAzDMAxjyvwXEhdIW4HIfzsAAAAASUVORK5CYII=
     <span class="c1"># the style loss</span>
     <span class="n">style_loss</span> <span class="o">=</span> <span class="mi">0</span>
 
-    <span class="k">if</span> <span class="n">ii</span> <span class="o">%</span> <span class="mi">50</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;{round(ii / steps * 100, 2)}%&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ii</span> <span class="o">%</span> <span class="mi">50</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">round</span><span class="p">(</span><span class="n">ii</span> <span class="o">/</span> <span class="n">steps</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="si">}</span><span class="s2">%&quot;</span><span class="p">)</span>
 
     <span class="k">for</span> <span class="n">layer</span> <span class="ow">in</span> <span class="n">style_weights</span><span class="p">:</span>
         <span class="c1"># get the &quot;target&quot; style representation for the layer</span>
